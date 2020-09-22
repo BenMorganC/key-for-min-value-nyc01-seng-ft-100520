@@ -11,10 +11,9 @@ def key_for_min_value(name_hash)
           counter += 1
           key_for_min_value[value]
           end
-         return
+         return smallest_key
         end
      end
-  
   end
   
   def key_for_min_value(name_hash)
