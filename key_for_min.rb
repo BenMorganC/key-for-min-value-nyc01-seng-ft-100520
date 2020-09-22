@@ -1,6 +1,6 @@
 def key_for_min_value(name_hash)
   
-  counter = 0 
+  counter = 0  
   smallest_key = {}
   
   while name_hash.count < counter do
