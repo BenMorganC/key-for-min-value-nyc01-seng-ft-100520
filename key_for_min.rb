@@ -11,7 +11,7 @@ name_hash.each do |key, value|
   end
   k
 end
-  
+end  
    # counter = 0  
   # smallest_key = {}
   
