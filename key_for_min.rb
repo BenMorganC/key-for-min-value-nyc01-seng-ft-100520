@@ -1,8 +1,10 @@
 def key_for_min_value(name_hash)
- 
+ v = "#{key}"
+ k = "#{value}"
  
 name_hash.each do |key, value|
-  puts "#{key}: #{value}"
+  if value < value
+  puts "#{key} #{value}"
 end
  
 end
