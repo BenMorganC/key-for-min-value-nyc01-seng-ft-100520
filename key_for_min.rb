@@ -1,17 +1,14 @@
 def key_for_min_value(name_hash)
     counter = 0
-    smallest_key = ""
     while counter < name_hash.count do
-    smallest_value = name_hash[counter]
         name_hash.each do |key, value|
-        if name_hash[key] < smallest_value
-          name_hash[key] = smallest_value
-          
-       
-      end
-        counter += 1
+        smallest_value = name_hash[key][value]
+            if name_hash[counter][value] < smallest_value
+            smallest_value = name_hash[key][value]
+          end
+            counter += 1 
         end
-  
-    puts smallest_key
-end
-end
+      end
+        puts smallest_value "#{key}"
+      end
+        
