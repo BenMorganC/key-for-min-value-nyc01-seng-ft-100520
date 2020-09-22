@@ -1,12 +1,15 @@
 def key_for_min_value(name_hash)
- v = "#{key}"
- k = "#{value}"
+ k = nil
+ v = 100000000000
  
 name_hash.each do |key, value|
-  if value < value
-  puts "#{key} #{value}"
-end
- 
+  if value < v
+    v = value
+    k = key
+    
+  #puts "#{k} #{v}"
+  end
+  k
 end
   
    # counter = 0  
