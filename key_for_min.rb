@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
        counter += 1 
      end
      end
-     puts name_hash[key]
+     puts smallest_value
    end
